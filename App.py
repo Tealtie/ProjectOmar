@@ -1,5 +1,11 @@
-import pgzero
 import pgzrun
 import random
-print("Hello World")
+
+WIDTH = 800
+HEIGHT = 600
+TITLE = "PROJECT OMAR"
+
+def draw():
+    screen.fill((0, 0, 0))
+
 pgzrun.go()
